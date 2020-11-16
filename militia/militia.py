@@ -65,8 +65,8 @@ def show_score(x, y):
 
 # For instruction to fire the bullet.
 def show_Instructions():
-    instruct = space.render("Press 'space' to shoot", True, (255, 255, 255))
-    screen.blit(instruct, (330, 8))    
+    instruct = space.render("Press 'space' to shoot & arrow keys to move", True, (255, 255, 255))
+    screen.blit(instruct, (305, 8))    
 
 # To display "GAME OVER" if any enemy crosses the screen.
 def game_over_text():
